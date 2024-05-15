@@ -248,9 +248,16 @@ INSERT INTO complejo_polideportivo VALUES
 
 -- Insertando valores a la tabla "complejo_deportivo"
 INSERT INTO complejo_deportivo VALUES
-(1,'Complejo Deportivo Giron', 1,2,2,3),
-(2,'Complejo Deportivo Floridablanca',3,3,3,2),
-(3,'Complejo Deportivo Zapatoca', 2,4,1,1);
+(1,'Complejo Deportivo Giron', 1,2,3),
+(2,'Complejo Deportivo Floridablanca',3,3,2),
+(3,'Complejo Deportivo Zapatoca', 2,4,1);
+
+
+-- Insertando valores a la tabla "sede"
+INSERT INTO sede VALUES
+(1,'sede1',1,12.300, 2),
+(2,'sede2',5,150000.03, 4),
+(3,'sede3',4,34561.215, 6);
 
 
 -- Insertando valores a la tabla "eventos"
@@ -292,10 +299,3 @@ INSERT INTO evento_equipo VALUES
 (1,3,6),
 (2,1,5),
 (3,4,4);
-
-
--- Insertando valores a la tabla "sede"
-INSERT INTO sede VALUES
-(1,'sede1',1,12.300, 2),
-(2,'sede2',5,150000.03, 4),
-(3,'sede3',4,34561.215, 6);
